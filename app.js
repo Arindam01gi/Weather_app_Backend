@@ -37,6 +37,6 @@ const url ="https://api.openweathermap.org/data/2.5/weather?q="+query+"&appid="+
 })
 
 
-app.listen(3000,function(){
+app.listen(process.env.PORT||3000,function(){
   console.log("Server is running at port 3000");
 });
