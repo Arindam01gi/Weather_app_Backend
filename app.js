@@ -37,8 +37,6 @@ const url ="https://api.openweathermap.org/data/2.5/weather?q="+query+"&appid="+
 })
 
 
-var port = process.env.PORT || 3000;
-
-api.listen(port, () => console.log(`Listening to port 
-${port}`
-));
+app.listen(process.env.PORT||3000,function(){
+  console.log("Server is running at port 3000");
+});
