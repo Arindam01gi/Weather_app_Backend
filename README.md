@@ -1,7 +1,7 @@
 
 # Weather_app_Backend
 
-You can find weather in your place by searching here.
+You can find weather for any place by searching here.
 
 ## Run Locally
 
